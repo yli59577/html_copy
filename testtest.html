@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>滑鼠懸停下拉選單</title>
+  <style>
+    /* 基本樣式 */
+    body {
+      font-family: Arial, sans-serif;
+      padding: 50px;
+    }
+
+    /* 主選單容器 */
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    /* 選單按鈕 */
+    .dropdown-button {
+      padding: 10px 20px;
+      background-color: #3498db;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    /* 下拉選單內容（預設隱藏） */
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: white;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    /* 選單項目 */
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      
+      text-decoration: none;
+      display: block;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #f1f1f1;
+    }
+
+    /* 滑鼠懸停時顯示下拉選單 */
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="dropdown">
+    <button class="dropdown-button">選單</button>
+    <div class="dropdown-content">
+      <a href="#">選項 1</a>
+      <a href="#">選項 2</a>
+      <a href="#">選項 3</a>
+    </div>
+  </div>
+
+</body>
+</html>

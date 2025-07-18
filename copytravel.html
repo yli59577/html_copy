@@ -1,0 +1,337 @@
+  <!DOCTYPE html>
+  <html lang="zh-CN">
+      <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=divice-width, initial-scale=1.0">
+      <title> 辛普森家族</title>
+      <link rel="stylesheet" href="resume.css">
+     
+      <link rel="shortcut icon" href="下載 (1).jpg">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+  
+    <srcipt src="/scripts/jquery-1.5.2.min.js"> </script>
+    <div id="c"> <a href="https://onlyoneafrica.tw/"><img src="nononame.png" width="40vw"></a> 
+  </div>
+
+  <div class="toprea">
+  <ul> 
+      
+          <li class="change"><a href="file:///Users/imac-1682/Desktop/code/copytravel.html">首頁</a></li>
+
+            
+              <li class="change text3"><a href="https://onlyoneafrica.tw/destinations/">目的地</a>
+                  <ul> 
+                      <li><a href="https://onlyoneafrica.tw/kenya/">肯亞的旅遊資訊</a></li>  
+                      <li><a href="https://onlyoneafrica.tw/tanzania/">塔尚尼亞的旅遊資訊</a></li>
+                      <li><a href="https://onlyoneafrica.tw/south-africa/">南非旅遊資訊</a></li>
+                      <li><a href="https://onlyoneafrica.tw/namibia/">納米比亞旅遊資訊</a></li>
+                      <li><a href="https://onlyoneafrica.tw/rwanda/">盧旺達旅遊資訊</a></li>
+                      <li><a href="https://onlyoneafrica.tw/uganda/">烏干達旅遊資訊</a></li>  
+                      <li><a href="https://onlyoneafrica.tw/uganda/">贊比亞旅遊資訊</a></li>
+                      <li><a href="https://onlyoneafrica.tw/zimbabwe/">津巴布韋旅遊資訊</a></li>
+                      <li><a href="https://onlyoneafrica.tw/botswana/">波札那共和國旅遊資訊</a></li>
+                      <li><a href="https://onlyoneafrica.tw/ethiopia/">埃塞俄比亞旅遊資訊</a></li>
+                  </ul>
+                </li>
+
+                    <li class="change"><a href="https://onlyoneafrica.tw/tours/">行程介紹</a></li>
+                    <li class="change"><a href="https://onlyoneafrica.tw/hotels/">住宿介紹</a></li>
+
+                  <li class="change  text3"><a href="https://onlyoneafrica.tw/travel-informations/">相關資訊</a>
+                  <ul>
+                      <li><a href="https://onlyoneafrica.tw/travel-informations/">行前注意事項</a></li>
+                      <li><a href="https://onlyoneafrica.tw/safari-tour-point/">onlyone travel十大堅持</a></li>
+                      <li><a href="https://onlyoneafrica.tw/greatmigrationblog/">什麼是動物大遷徒？</a></li>
+                      <li><a href="https://onlyoneafrica.tw/safaricampvssafarilodge/">營地帳篷vs渡假飯店</a></li>
+                      <li><a href="https://onlyoneafrica.tw/african-animals-list/">野生動物園可以看到的動物有哪些</a></li>
+                      <li><a href="https://onlyoneafrica.tw/faq/">非洲旅行常見問題</a></li>    
+                  </ul>               
+                  </li>
+    
+              <li class="change text3"><a href="https://onlyoneafrica.tw/about-us/">關於我們</a>
+                  <ul>
+                      <li><a href="https://onlyoneafrica.tw/staff/">工作人員介紹</a></li>
+                      <li><a href="https://onlyoneafrica.tw/category/staffblog/">工作人員部落格</a></li>
+                      <li><a href="https://onlyoneafrica.tw/flow/">非洲旅行出發前的流程</a></li>
+                      <li><a href="https://onlyoneafrica.tw/condition/">旅行條款</a></li>
+            
+                  
+              </ul> </li>
+            
+              <li class="change"><a href="https://onlyoneafrica.tw/contact/">聯繫我們</a></li>
+              <li class="change text3"><a href="file:///Users/imac-1682/Desktop/0702/copytravel.html">Languages</a>
+                  <ul class="langimg"> 
+                      <li><a href="https://onlyone.africa/"><img src="american.png">English</a></li>  
+                      <li><a href="https://onlyoneafrica.tw/tanzania/"><img src="tw.png">繁體中文</a></li>
+                      <li><a href="https://onlyoneafrica.com/"><img src="jp.png">日本語</a></li>
+                      <li><a href="https://onlyoneafrica.kr/"><img src="kor.png">한국어</a></li>
+                      <li><a href="https://onlyoneafrica.tw/rwanda/"><img src="sp.png">Español</a></li>
+                      </ul> 
+                    
+              
+              
+              
+              
+              </li>
+                <!-- 放大鏡按鈕 -->
+      <li> 
+        <input type="checkbox" id="toggleSearch" hidden>
+          <label for="toggleSearch" id="searchLabel" style="cursor: pointer;">
+          <img src="magnifier.png">
+          </label>
+          <li class="searchInputLi" id="searchInputLi">
+          <form id="searchForm" action="https://onlyoneafrica.tw/" method="get" class="searchContainer">
+            <input type="text" name="s" class="searchInput" id="searchInput" placeholder="搜尋...">
+            <button type="button" id="closeSearch" class="closeBtn">✖</button>
+            
+          </form>
+        </li>
+      </li>
+            
+
+
+  </ul>
+  </div>
+
+  <div class="bmiddle">
+      <a href="javascript:void(0);" onclick="showVideoOverlay()"><img src="159332007151.jpg" width="100%" height="600px "></a>
+  <div id="videoOverlay" class="video-overlay">
+    <div class="video-container"  id="videoContainer"      <button class="fullscreen-btn" onclick="goFullscreen()">口</button>
+      <iframe 
+        id="videoFrame"
+        width="100%" 
+        height="100%" 
+        frameborder="0" 
+        allow="autoplay; encrypted-media" 
+        allowfullscreen>
+      </iframe>
+      
+    </div>
+  </div>
+
+
+      <div style="margin-left: 25%;text-align: left;padding-bottom: 100px;margin-right: 25%;">
+      <h1 >《辛普森家庭》：美國動畫經典代表</h1>
+          <br><p>《辛普森家庭》（The Simpsons）是一部美國長壽動畫影集，自1989年首播以來已成為全球知名的文化符號。<br>
+          <br><p>住在虛構小鎮「春田市」的辛普森一家，包括糊塗父親荷馬、機智母親瑪琦、叛逆兒子巴特、聰明女兒莉莎和可愛的寶寶瑪姬。</p></br>
+          該劇以幽默方式諷刺社會、政治與家庭議題，深受各年齡層觀眾喜愛。
+
+  </p></div></div>`
+
+
+<div class="box">      
+
+
+      <!--摩洛哥旅行部分  -->
+      <div class="travelbox">
+    
+        <h1>最新影集</h1>
+          <p ><h1>現正熱映中</h1></p>
+          <hr>   
+          <hr>
+        
+    </div>
+
+
+
+    
+
+      
+      <div class="box1"> 
+      <a href="https://onlyoneafrica.tw/journeys/morocco-12-day-tour/"><div  class="image-wrapper"><img  src="下載 (1).jpg"  class="cover">
+    <div class="overlay"></div></div>
+      </a>
+      <div class="box1text">
+      <p class="wood"><strong>巴特·辛普森</strong></p>
+      <p class="wood"><strong></strong></p>
+      <p class="red"></p></div>
+      </div>
+  
+
+
+      <div class="box1">
+      <a href="https://onlyoneafrica.tw/journeys/morocco-10-day/"><div  class="image-wrapper"><img  src="下載 (2).jpg"  class="cover">
+    <div class="overlay"></div></div>
+      </a>L
+      <div class="box1text">
+      <p class="wood"><strong>內德·弗蘭德斯</strong></p>
+      <p class="wood"><strong></strong></p>
+      <p class="red"></div>
+      </div>
+    
+          <div class="box1">
+              <a href="https://onlyoneafrica.tw/journeys/morocco-7days/"><div  class="image-wrapper"><img src="images.jpg   "  class="cover">
+    <span class="overlay"></span></div>
+    <div class="box1text">
+              </a>
+                  <p class="wood"><strong>霍默·辛普森</strong></p>
+                  <p class="wood"><strong></strong></p>
+                <p class="red"></p> </div> </div>
+        
+      
+    
+          <div class="box1">
+              <a href="https://onlyoneafrica.tw/journeys/black-panther-7-days-tour/"><div  class="image-wrapper"><img src="下載 (1).png"  class="cover">
+    <div class="overlay"></div></div></a>
+    <div class="box1text">
+                  <p class="wood"><strong>瑪吉·辛普森</strong></p>
+                  <p class="wood"><strong></strong></p>
+                <p class="red"></p></div>
+          </div>
+
+          <div class="box1">
+              <a href="https://onlyoneafrica.tw/journeys/namibia-8days-tour/"><div  class="image-wrapper"><img  src="mompng.png" class="cover">
+    <div class="overlay"></div></div></a>
+    <div class="box1text">
+                  <p class="wood"><strong>美枝·辛普森</strong></p>
+                  <p class="wood"><strong></strong></p>
+                <p class="red"></p></div>
+          </div>
+    
+    
+      <div class="box1">
+              <a href="https://onlyoneafrica.tw/journeys/tanzania-6days-tour/"><div  class="image-wrapper"><img  src="下載 (3).jpg" class="cover">
+    <div class="overlay"></div></div></a>
+    <div class="box1text">
+                  <p class="wood"><strong>帕蒂和塞爾瑪</strong></p>
+                  <p class="wood"><strong></strong></p>
+                <p class="red"></p></div>
+          </div>
+      
+              
+  
+      <div class="box1">
+              <a href="https://onlyoneafrica.tw/journeys/capetownkruger7days/"><div  class="image-wrapper"><img  src="下載.png" class="cover">
+    <div class="overlay"></div></div>
+  </a>
+          <div class="box1text">
+                  <p class="wood"><strong>艾甲甲</strong></p>
+                  <p class="wood"><strong></strong></p>
+                <p class="red"></p></div>
+          </div>
+    
+      <div class="box1">
+              <a href="https://onlyoneafrica.tw/journeys/gorilla4days-sgorssr/"><div  class="image-wrapper"><img  src="daughter.png" class="cover">
+    <div class="overlay"></div></div></a>
+                <div class="box1text">
+                  <p class="wood"><strong>莉薩·辛普森</strong></p>
+                  <p class="wood"><strong></strong></p>
+                <p class="red"></p></div>
+          </div>
+          <p style="text-align:center"></p>
+  <!--    旅行按鈕         -->
+          
+        <div class="middle">
+            
+            <a href="http://onlyoneafrica.tw/tours/" >
+            </a>
+          </div>
+        
+    </div> 
+      
+  
+
+  <div class="box4">
+          <a href="https://onlyoneafrica.tw/about-us/">  <img style="max-width: 100%;margin-top: 150px;" src="e8be9be699aee6a3ae1.webp"></a>
+  </div>
+  <div style="padding-top: 5%;">
+  </div> 
+  </div>
+        
+  </div> 
+  <div style="margin-top: 20px;text-align: center;line-height: 40px;font-size:12px ;color:rgb(212, 212, 212);">Copyright 2017 - 2025 onlyone africa | All Rights Reserved</div>  
+
+
+  </div>
+
+
+
+<script>
+
+   const cb = document.getElementById('toggleSearch');
+     const changes = document.querySelectorAll('.change');
+     const si = document.getElementById('searchInputLi');
+     const closeBtn = document.getElementById('closeSearch');
+
+
+     cb.addEventListener('change', () => {
+      if (cb.checked) {
+         changes.forEach(li => li.classList.add('hide'));
+        si.classList.add('show');
+         setTimeout(() => document.getElementById('searchInput').focus(), 300);
+       } else {
+        changes.forEach(li => li.classList.remove('hide'));
+       si.classList.remove('show');
+      }
+     });
+  
+  closeBtn.addEventListener('click', () => {
+     cb.checked = false;
+     cb.dispatchEvent(new Event('change'));
+   });
+
+
+
+    function showVideoOverlay() {
+      const overlay = document.getElementById('videoOverlay');
+      const iframe = document.getElementById('videoFrame');
+      const container = document.getElementById('videoContainer');
+
+      container.classList.remove('visible');
+      overlay.classList.remove('hide');
+      overlay.style.display = 'flex';
+      overlay.classList.add('show');
+      
+ja
+      overlay.addEventListener('animationend', function handler(e) {
+        if (e.animationName === 'fadeInBackground') {
+          iframe.src = iframe.src = "https://www.youtube.com/embed/DcC67e1-E04?start=135";
+
+          container.classList.add('visible');
+          overlay.removeEventListener('animationend', handler);
+        }
+      });
+  }
+
+
+  function closeVideoOverlay() {
+    const overlay = document.getElementById('videoOverlay');
+    const iframe = document.getElementById('videoFrame');
+    const container = document.getElementById('videoContainer');
+
+    
+    container.classList.remove('visible');
+
+    overlay.classList.remove('show');
+    overlay.classList.add('hide');
+
+    
+
+    setTimeout(() => {
+      overlay.style.display = 'none';
+      overlay.classList.remove('hide');
+      iframe.src = ''; 
+    }, 500);
+
+  }
+
+  function goFullscreen() {
+      const container = document.getElementById('videoContainer');
+    container.classList.toggle('maximized');
+    }
+
+
+
+
+    document.getElementById('videoOverlay').addEventListener('click', function (e) {
+    const container = document.getElementById('videoContainer');
+
+
+    if (!container.contains(e.target)) {
+      closeVideoOverlay();
+    }
+  });
+  </script>
+  </body>
